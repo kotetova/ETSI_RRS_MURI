@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(RRS_MURI)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(RRS_MURI main.cpp ETSI_RRS_AdministrativeServices.cpp ETSI_RRS_AdministrativeServices.h ETSI_RRS_AccessControlServices.cpp ETSI_RRS_AccessControlServices.h ETSI_RRS_DataFlowServices.cpp ETSI_RRS_DataFlowServices.h ETSI_RRS_MURI.cpp ETSI_RRS_MURI.h)

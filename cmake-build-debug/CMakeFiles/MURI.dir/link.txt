@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MURI.dir/main.cpp.o CMakeFiles/MURI.dir/AdministrativeServices.cpp.o CMakeFiles/MURI.dir/AccessControlServices.cpp.o CMakeFiles/MURI.dir/DataFlowServices.cpp.o  -o MURI 
