@@ -16,12 +16,13 @@ class ETSI_RRS_MURI {
         ETSI_RRS_MURI();
         ~ETSI_RRS_MURI();
 
+
     private:
         ETSI_RRS_AdministrativeServices *AdministrativeServices;
         ETSI_RRS_AccessControlServices *AccessControlServices;
         ETSI_RRS_DataFlowServices *DataFlowServices;
 
-        int RAP_ID, URA_ID;
+
 
 };
 

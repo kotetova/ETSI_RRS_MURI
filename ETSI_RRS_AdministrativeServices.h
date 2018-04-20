@@ -4,7 +4,6 @@
 #pragma once
 #include <iostream>
 
-
 #ifndef MURI_ADMINISTRATIVESERVICES_H
 #define MURI_ADMINISTRATIVESERVICES_H
 
@@ -14,7 +13,7 @@ class ETSI_RRS_AdministrativeServices {
 public:
 
     int installRadioApps(){
-
+        cout << RAP_ID + 1 << endl;
         return 0;
     }
 
@@ -48,6 +47,8 @@ public:
 
 protected:
 private:
+    int RAP_ID = 0;
+    int URA_ID;
 };
 
 
