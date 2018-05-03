@@ -12,69 +12,30 @@ using namespace std;
 class ETSI_RRS_AccessControlServices {
 public:
 
-    int activateRadioApps()
-    {
+    ETSI_RRS_AccessControlServices();
+    ~ETSI_RRS_AccessControlServices();
 
-        return 0;
-    }
+    int activateRadioApps();
+    bool deactivateRadioApps();
+    void getListOfRadioApps();   //RadioAppList
+    bool startRadioMeasurment();
+    void stopRadioMeasurment();  //RadioMeasurmentList
+    int createAssociation();
+    bool terminateAssociation();
+    int createLink();
+    int releaseLink();
+    int createDataFlow();
+    int terminateDataFlow();
 
-    bool deactivateRadioApps()
-    {
-
-    }
-
-    void getListOfRadioApps()   //RadioAppList
-    {
-
-    }
-
-    bool startRadioMeasurment()
-    {
-
-    }
-
-    void stopRadioMeasurment()  //RadioMeasurmentList
-    {
-
-    }
-
-    int createAssociation()
-    {
-
-        return 0;
-    }
-
-    bool terminateAssociation()
-    {
-
-    }
-
-    int createLink()
-    {
-
-        return 0;
-    }
-
-    int releaseLink()
-    {
-
-        return 0;
-    }
-
-    int createDataFlow()
-    {
-
-        return 0;
-    }
-
-    int terminateDataFlow()
-    {
-
-        return 0;
-    }
+    int getRAP_ID();
+    int getURA_ID();
+    void setRAP_ID(int);
+    void setURA_ID(int);
 
 protected:
 private:
+    int RAP_ID, URA_ID;
+
 };
 
 

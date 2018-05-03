@@ -12,43 +12,28 @@ using namespace std;
 class ETSI_RRS_AdministrativeServices {
 public:
 
-    int installRadioApps(){
-        cout << RAP_ID + 1 << endl;
-        return 0;
-    }
+    ETSI_RRS_AdministrativeServices();
+    ~ETSI_RRS_AdministrativeServices();
 
-    int uninstallRadioApps(){
+    int installRadioApps();
+    int uninstallRadioApps();
+    int createRadioApps();
+    int deleteRadioApps();
+    void getRadioAppParameters();
+    bool setRadioAppParameters();
+    void getListOfRadioApps();
 
-        return 0;
-    }
-
-    int createRadioApps(){
-
-        return 0;
-    }
-
-    int deleteRadioApps(){
-
-        return 0;
-    }
-
-    void getRadioAppParameters(){
-
-    }
-
-    bool setRadioAppParameters(){
-
-    }
-
-    void getListOfRadioApps(){
-
-    }
+    int getRAP_ID();
+    int getURA_ID();
+    void setRAP_ID(int);
+    void setURA_ID(int);
 
 
 protected:
 private:
-    int RAP_ID = 0;
+    int RAP_ID;
     int URA_ID;
+
 };
 
 

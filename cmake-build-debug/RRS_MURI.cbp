@@ -96,6 +96,12 @@
 		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_AdministrativeServices.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
+		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.cpp">
+			<Option target="RRS_MURI"/>
+		</Unit>
+		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.h">
+			<Option target="RRS_MURI"/>
+		</Unit>
 		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_DataFlowServices.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>

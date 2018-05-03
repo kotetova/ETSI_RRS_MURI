@@ -7,17 +7,22 @@ CMakeFiles/RRS_MURI.dir/ETSI_RRS_AccessControlServices.cpp.o: ../ETSI_RRS_Access
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_AdministrativeServices.cpp.o: ../ETSI_RRS_AdministrativeServices.cpp
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_AdministrativeServices.cpp.o: ../ETSI_RRS_AdministrativeServices.h
 
+CMakeFiles/RRS_MURI.dir/ETSI_RRS_CommunicationServiceLayer.cpp.o: ../ETSI_RRS_CommunicationServiceLayer.cpp
+CMakeFiles/RRS_MURI.dir/ETSI_RRS_CommunicationServiceLayer.cpp.o: ../ETSI_RRS_CommunicationServiceLayer.h
+
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_DataFlowServices.cpp.o: ../ETSI_RRS_DataFlowServices.cpp
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_DataFlowServices.cpp.o: ../ETSI_RRS_DataFlowServices.h
 
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_AccessControlServices.h
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_AdministrativeServices.h
+CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_CommunicationServiceLayer.h
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_DataFlowServices.h
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_MURI.cpp
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_MURI.h
 
 CMakeFiles/RRS_MURI.dir/main.cpp.o: ../ETSI_RRS_AccessControlServices.h
 CMakeFiles/RRS_MURI.dir/main.cpp.o: ../ETSI_RRS_AdministrativeServices.h
+CMakeFiles/RRS_MURI.dir/main.cpp.o: ../ETSI_RRS_CommunicationServiceLayer.h
 CMakeFiles/RRS_MURI.dir/main.cpp.o: ../ETSI_RRS_DataFlowServices.h
 CMakeFiles/RRS_MURI.dir/main.cpp.o: ../ETSI_RRS_MURI.h
 CMakeFiles/RRS_MURI.dir/main.cpp.o: ../main.cpp

@@ -22,6 +22,12 @@ ETSI_RRS_AdministrativeServices.h
 iostream
 -
 
+/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.cpp
+ETSI_RRS_CommunicationServiceLayer.h
+/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.h
+
+/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.h
+
 /home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_DataFlowServices.cpp
 ETSI_RRS_DataFlowServices.h
 /home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_DataFlowServices.h
@@ -49,6 +55,8 @@ ETSI_RRS_AdministrativeServices.h
 /home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_AdministrativeServices.h
 ETSI_RRS_DataFlowServices.h
 /home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_DataFlowServices.h
+ETSI_RRS_CommunicationServiceLayer.h
+/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.h
 
 /home/stormy/CLionProjects/RRS_MURI/main.cpp
 iostream

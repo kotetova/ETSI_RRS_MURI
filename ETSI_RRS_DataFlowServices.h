@@ -1,5 +1,5 @@
 //
-// Created by stormy on 20.04.18.
+// Control Data Flow
 //
 #pragma once
 #include <iostream>
@@ -10,16 +10,19 @@ using namespace std;
 
 class ETSI_RRS_DataFlowServices {
 
-    bool sendUserData()
-    {
+public:
+    ETSI_RRS_DataFlowServices();
+    ~ETSI_RRS_DataFlowServices();
 
-    }
 
-    void receiveUserData()  //UserData
-    {
+private:
 
-    }
+    bool sendUserData();
+    void receiveUserData();  //UserData
+
 };
+
+
 
 
 #endif //MURI_DATAFLOWSERVICES_H

@@ -177,6 +177,33 @@ ETSI_RRS_AdministrativeServices.cpp.s:
 	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_AdministrativeServices.cpp.s
 .PHONY : ETSI_RRS_AdministrativeServices.cpp.s
 
+ETSI_RRS_CommunicationServiceLayer.o: ETSI_RRS_CommunicationServiceLayer.cpp.o
+
+.PHONY : ETSI_RRS_CommunicationServiceLayer.o
+
+# target to build an object file
+ETSI_RRS_CommunicationServiceLayer.cpp.o:
+	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_CommunicationServiceLayer.cpp.o
+.PHONY : ETSI_RRS_CommunicationServiceLayer.cpp.o
+
+ETSI_RRS_CommunicationServiceLayer.i: ETSI_RRS_CommunicationServiceLayer.cpp.i
+
+.PHONY : ETSI_RRS_CommunicationServiceLayer.i
+
+# target to preprocess a source file
+ETSI_RRS_CommunicationServiceLayer.cpp.i:
+	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_CommunicationServiceLayer.cpp.i
+.PHONY : ETSI_RRS_CommunicationServiceLayer.cpp.i
+
+ETSI_RRS_CommunicationServiceLayer.s: ETSI_RRS_CommunicationServiceLayer.cpp.s
+
+.PHONY : ETSI_RRS_CommunicationServiceLayer.s
+
+# target to generate assembly for a file
+ETSI_RRS_CommunicationServiceLayer.cpp.s:
+	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_CommunicationServiceLayer.cpp.s
+.PHONY : ETSI_RRS_CommunicationServiceLayer.cpp.s
+
 ETSI_RRS_DataFlowServices.o: ETSI_RRS_DataFlowServices.cpp.o
 
 .PHONY : ETSI_RRS_DataFlowServices.o
@@ -273,6 +300,9 @@ help:
 	@echo "... ETSI_RRS_AdministrativeServices.o"
 	@echo "... ETSI_RRS_AdministrativeServices.i"
 	@echo "... ETSI_RRS_AdministrativeServices.s"
+	@echo "... ETSI_RRS_CommunicationServiceLayer.o"
+	@echo "... ETSI_RRS_CommunicationServiceLayer.i"
+	@echo "... ETSI_RRS_CommunicationServiceLayer.s"
 	@echo "... ETSI_RRS_DataFlowServices.o"
 	@echo "... ETSI_RRS_DataFlowServices.i"
 	@echo "... ETSI_RRS_DataFlowServices.s"

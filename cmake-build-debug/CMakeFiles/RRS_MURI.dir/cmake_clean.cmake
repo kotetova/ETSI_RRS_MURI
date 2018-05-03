@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RRS_MURI.dir/ETSI_RRS_AccessControlServices.cpp.o"
   "CMakeFiles/RRS_MURI.dir/ETSI_RRS_DataFlowServices.cpp.o"
   "CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o"
+  "CMakeFiles/RRS_MURI.dir/ETSI_RRS_CommunicationServiceLayer.cpp.o"
   "RRS_MURI.pdb"
   "RRS_MURI"
 )
