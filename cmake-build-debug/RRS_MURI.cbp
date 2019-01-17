@@ -8,116 +8,128 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug"/>
+				<Option working_dir="/home/kate/Desktop/RRS_MURI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug"/>
+				<Option working_dir="/home/kate/Desktop/RRS_MURI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug"/>
+				<Option working_dir="/home/kate/Desktop/RRS_MURI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RRS_MURI">
-				<Option output="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/RRS_MURI" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug"/>
+				<Option output="/home/kate/Desktop/RRS_MURI/cmake-build-debug/RRS_MURI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kate/Desktop/RRS_MURI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 RRS_MURI"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 RRS_MURI"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RRS_MURI/fast">
-				<Option output="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/RRS_MURI" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug"/>
+				<Option output="/home/kate/Desktop/RRS_MURI/cmake-build-debug/RRS_MURI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kate/Desktop/RRS_MURI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 RRS_MURI/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stormy/CLionProjects/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 RRS_MURI/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kate/Desktop/RRS_MURI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_AccessControlServices.cpp">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_CSL.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_AccessControlServices.h">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_CSL.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_AdministrativeServices.cpp">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_AdministrativeServices.h">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.cpp">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AccessControlServices.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_CommunicationServiceLayer.h">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AccessControlServices.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_DataFlowServices.cpp">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AdministrativeServices.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_DataFlowServices.h">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AdministrativeServices.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_MURI.cpp">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/ETSI_RRS_MURI.h">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/main.cpp">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RCF.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/stormy/CLionProjects/RRS_MURI/CMakeLists.txt">
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RCF.h">
+			<Option target="RRS_MURI"/>
+		</Unit>
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.cpp">
+			<Option target="RRS_MURI"/>
+		</Unit>
+		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.h">
+			<Option target="RRS_MURI"/>
+		</Unit>
+		<Unit filename="/home/kate/Desktop/RRS_MURI/main.cpp">
+			<Option target="RRS_MURI"/>
+		</Unit>
+		<Unit filename="/home/kate/Desktop/RRS_MURI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
