@@ -18,10 +18,13 @@ public:
     ~ETSI_RRS_MURI_DataFlowServices();
 
 private:
-    ETSI_RRS_RadioComputer *radioComputer;
+
+  ETSI_RRS_RadioComputer *radioComputer;
+ /** Lisa*/
+ /*
     bool sendUserData();
     void receiveUserData();  //UserData
-
+*/
 };
 
 

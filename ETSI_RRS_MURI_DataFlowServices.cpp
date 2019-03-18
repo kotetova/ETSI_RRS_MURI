@@ -10,7 +10,8 @@ ETSI_RRS_MURI_DataFlowServices::ETSI_RRS_MURI_DataFlowServices(ETSI_RRS_RadioCom
 
     cout << "Data flow Services was created" << endl;
 }
-
+/** Lisa*/
+/*
 bool ETSI_RRS_MURI_DataFlowServices::sendUserData() {
 
 }
@@ -18,7 +19,7 @@ bool ETSI_RRS_MURI_DataFlowServices::sendUserData() {
 void ETSI_RRS_MURI_DataFlowServices::receiveUserData() {  //UserData
 
 }
-
+*/
 
 ETSI_RRS_MURI_DataFlowServices::~ETSI_RRS_MURI_DataFlowServices() {
 

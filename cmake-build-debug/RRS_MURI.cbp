@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_CSL.cpp">
-			<Option target="RRS_MURI"/>
-		</Unit>
-		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_CSL.h">
-			<Option target="RRS_MURI"/>
-		</Unit>
 		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>
@@ -112,12 +106,6 @@
 			<Option target="RRS_MURI"/>
 		</Unit>
 		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h">
-			<Option target="RRS_MURI"/>
-		</Unit>
-		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RCF.cpp">
-			<Option target="RRS_MURI"/>
-		</Unit>
-		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RCF.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
 		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.cpp">

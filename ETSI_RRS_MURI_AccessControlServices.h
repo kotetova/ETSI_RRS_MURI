@@ -16,10 +16,13 @@ class ETSI_RRS_MURI_AccessControlServices{
 private:
     ETSI_RRS_RadioComputer *radioComputer;
     int RAP_ID, URA_ID;
+    bool checkoutURA();
+    bool checkoutRAP();
 
 public:
 
     ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer&);
+
 
     int activateRadioApps(int);
     bool deactivateRadioApps(int);
@@ -28,12 +31,13 @@ public:
     bool terminateAssociation();
 
 
+    /** Lisa*/
     /* bool startRadioMeasurment();
     void stopRadioMeasurment();
     int createLink();
     int releaseLink();
     int createDataFlow();
-    int terminateDataFlow(); */ //Lisa
+    int terminateDataFlow(); */
 
     ~ETSI_RRS_MURI_AccessControlServices();
 

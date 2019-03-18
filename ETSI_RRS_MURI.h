@@ -8,8 +8,6 @@
 #include "ETSI_RRS_MURI_AccessControlServices.h"
 #include "ETSI_RRS_MURI_AdministrativeServices.h"
 #include "ETSI_RRS_MURI_DataFlowServices.h"
-#include "ETSI_RRS_RCF.h"
-#include "ETSI_RRS_CSL.h"
 #include <list>
 
 
@@ -23,8 +21,7 @@ private:
     ETSI_RRS_MURI_AccessControlServices *accessControlServices;
     ETSI_RRS_MURI_AdministrativeServices *administrativeServices;
     ETSI_RRS_MURI_DataFlowServices *dataFlowServices;
-    ETSI_RRS_RCF *radioControlFramework;
-    ETSI_RRS_CSL *communicaionServicesLayer;
+
 
     ETSI_RRS_RadioComputer *radioComputer;
     int app;
@@ -41,6 +38,15 @@ public:
     bool terminateAssociation();
     string hashfile (const char*);
 
+// Administrative
+    int installRadioApps(int);
+    int uninstallRadioApps(int);
+    int createRadioApps(int);
+    int deleteRadioApps(int);
+    void getRadioAppParameters();
+    bool setRadioAppParameters();
+    void getListOfRadioApps();
+    bool checkoutURA(), checkoutRAP();
 
     ~ETSI_RRS_MURI();
 

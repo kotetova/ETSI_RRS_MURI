@@ -123,33 +123,6 @@ RRS_MURI/fast:
 	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/build
 .PHONY : RRS_MURI/fast
 
-ETSI_RRS_CSL.o: ETSI_RRS_CSL.cpp.o
-
-.PHONY : ETSI_RRS_CSL.o
-
-# target to build an object file
-ETSI_RRS_CSL.cpp.o:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_CSL.cpp.o
-.PHONY : ETSI_RRS_CSL.cpp.o
-
-ETSI_RRS_CSL.i: ETSI_RRS_CSL.cpp.i
-
-.PHONY : ETSI_RRS_CSL.i
-
-# target to preprocess a source file
-ETSI_RRS_CSL.cpp.i:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_CSL.cpp.i
-.PHONY : ETSI_RRS_CSL.cpp.i
-
-ETSI_RRS_CSL.s: ETSI_RRS_CSL.cpp.s
-
-.PHONY : ETSI_RRS_CSL.s
-
-# target to generate assembly for a file
-ETSI_RRS_CSL.cpp.s:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_CSL.cpp.s
-.PHONY : ETSI_RRS_CSL.cpp.s
-
 ETSI_RRS_MURI.o: ETSI_RRS_MURI.cpp.o
 
 .PHONY : ETSI_RRS_MURI.o
@@ -258,33 +231,6 @@ ETSI_RRS_MURI_DataFlowServices.cpp.s:
 	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.s
 .PHONY : ETSI_RRS_MURI_DataFlowServices.cpp.s
 
-ETSI_RRS_RCF.o: ETSI_RRS_RCF.cpp.o
-
-.PHONY : ETSI_RRS_RCF.o
-
-# target to build an object file
-ETSI_RRS_RCF.cpp.o:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_RCF.cpp.o
-.PHONY : ETSI_RRS_RCF.cpp.o
-
-ETSI_RRS_RCF.i: ETSI_RRS_RCF.cpp.i
-
-.PHONY : ETSI_RRS_RCF.i
-
-# target to preprocess a source file
-ETSI_RRS_RCF.cpp.i:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_RCF.cpp.i
-.PHONY : ETSI_RRS_RCF.cpp.i
-
-ETSI_RRS_RCF.s: ETSI_RRS_RCF.cpp.s
-
-.PHONY : ETSI_RRS_RCF.s
-
-# target to generate assembly for a file
-ETSI_RRS_RCF.cpp.s:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_RCF.cpp.s
-.PHONY : ETSI_RRS_RCF.cpp.s
-
 ETSI_RRS_RadioComputer.o: ETSI_RRS_RadioComputer.cpp.o
 
 .PHONY : ETSI_RRS_RadioComputer.o
@@ -348,9 +294,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RRS_MURI"
-	@echo "... ETSI_RRS_CSL.o"
-	@echo "... ETSI_RRS_CSL.i"
-	@echo "... ETSI_RRS_CSL.s"
 	@echo "... ETSI_RRS_MURI.o"
 	@echo "... ETSI_RRS_MURI.i"
 	@echo "... ETSI_RRS_MURI.s"
@@ -363,9 +306,6 @@ help:
 	@echo "... ETSI_RRS_MURI_DataFlowServices.o"
 	@echo "... ETSI_RRS_MURI_DataFlowServices.i"
 	@echo "... ETSI_RRS_MURI_DataFlowServices.s"
-	@echo "... ETSI_RRS_RCF.o"
-	@echo "... ETSI_RRS_RCF.i"
-	@echo "... ETSI_RRS_RCF.s"
 	@echo "... ETSI_RRS_RadioComputer.o"
 	@echo "... ETSI_RRS_RadioComputer.i"
 	@echo "... ETSI_RRS_RadioComputer.s"

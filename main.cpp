@@ -1,4 +1,5 @@
 #include <iostream>
+#include <zconf.h>
 #include "ETSI_RRS_MURI.h"
 #include "ETSI_RRS_RadioComputer.h"
 
@@ -13,6 +14,7 @@ int main() {
 
     ETSI_RRS_MURI muri(radioComputer);
 
+
     muri.activateRadioApps(5);
     muri.deactivateRadioApps(111);
     muri.getListOfRadioApps();
@@ -21,13 +23,11 @@ int main() {
 
 
     // Test file
-    ofstream fp("test.txt");
-    fp << "Hello World!sdasdsfdsf";
-    fp.close();
+
 
     // Test hash
-    string hash = muri.hashfile("test.txt");
-    cout << "The hash of our file is: " << hash << endl;
+//    string hash = muri.hashfile("test.txt");
+ //   cout << "The hash of our file is: " << hash << endl;
 
     // The End
 

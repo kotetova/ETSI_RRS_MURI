@@ -30,11 +30,11 @@ public:
     void getRadioAppParameters();
     bool setRadioAppParameters();
     void getListOfRadioApps();
-    string hashfile (const char*);
+
 private:
     ETSI_RRS_RadioComputer *radioComputer;
     int RAP_ID, URA_ID;
-
+    bool checkoutURA(), checkoutRAP();
 
 //    ETSI_RRS_hash *hashFile;
 
