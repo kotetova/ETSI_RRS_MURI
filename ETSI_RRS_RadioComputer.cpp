@@ -6,6 +6,8 @@
 
 
 ETSI_RRS_RadioComputer::ETSI_RRS_RadioComputer() {
+    radioComputer;
+    cout << "RC was created"<< endl;
 
 }
 
@@ -17,9 +19,6 @@ ETSI_RRS_RadioComputer::~ETSI_RRS_RadioComputer() {
 
 
 RadioApp::RadioApp(int, int) {
-
-    cout << "Radio Computer have a secret RAP ID " << P1<<endl;
-    cout << "Radio Computer have a secret URA ID " << R1<<endl;
 
 
 }

@@ -7,17 +7,19 @@
 
 #include <sstream>
 #include <iostream>
+#include  "ETSI_RRS_MURI.h"
+
 
 using namespace std;
 
 class ETSI_RRS_RadioComputer {
 
+    ETSI_RRS_MURI *muri;
+
 public:
 
     ETSI_RRS_RadioComputer();
-    int P1 = 222;  //RAP ID for current radiocomputer
-    int R1 = 111;  //URA ID for current radiocomputer
-
+    int radioComputer, E1;
 
     ~ETSI_RRS_RadioComputer();
 

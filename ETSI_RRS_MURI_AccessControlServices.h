@@ -5,6 +5,7 @@
 #include <iostream>
 #include <list>
 #include "ETSI_RRS_RadioComputer.h"
+#include "ETSI_RRS_MURI.h"
 
 #ifndef MURI_ACCESSCONTROLSERVICES_H
 #define MURI_ACCESSCONTROLSERVICES_H
@@ -15,9 +16,7 @@ class ETSI_RRS_MURI_AccessControlServices{
 
 private:
     ETSI_RRS_RadioComputer *radioComputer;
-    int RAP_ID, URA_ID;
-    bool checkoutURA();
-    bool checkoutRAP();
+    ETSI_RRS_MURI *muri;
 
 public:
 
@@ -26,7 +25,7 @@ public:
 
     int activateRadioApps(int);
     bool deactivateRadioApps(int);
-    void getListOfRadioApps();   //RadioAppList
+    void getListOfRadioApps(int);   //RadioAppList
     int createAssociation(int);
     bool terminateAssociation();
 

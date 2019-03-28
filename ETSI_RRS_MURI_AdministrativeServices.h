@@ -10,6 +10,7 @@
 #include <cstdint>
 #include <iomanip>
 #include "ETSI_RRS_RadioComputer.h"
+#include "ETSI_RRS_MURI.h"
 
 #ifndef MURI_ADMINISTRATIVESERVICES_H
 #define MURI_ADMINISTRATIVESERVICES_H
@@ -21,6 +22,7 @@ class ETSI_RRS_MURI_AdministrativeServices {
 public:
 
     ETSI_RRS_MURI_AdministrativeServices(ETSI_RRS_RadioComputer&);
+    ETSI_RRS_MURI *muri;
     ~ETSI_RRS_MURI_AdministrativeServices();
 
     int installRadioApps(int);
@@ -33,8 +35,6 @@ public:
 
 private:
     ETSI_RRS_RadioComputer *radioComputer;
-    int RAP_ID, URA_ID;
-    bool checkoutURA(), checkoutRAP();
 
 //    ETSI_RRS_hash *hashFile;
 
