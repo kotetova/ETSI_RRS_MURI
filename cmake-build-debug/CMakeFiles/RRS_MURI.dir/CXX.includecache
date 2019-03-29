@@ -37,6 +37,12 @@ list
 -
 ETSI_RRS_RadioComputer.h
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.h
+ETSI_RRS_MURI.h
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.h
+
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AdministrativeServices.cpp
+ETSI_RRS_MURI_AdministrativeServices.h
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AdministrativeServices.h
 
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AdministrativeServices.h
 iostream
@@ -53,10 +59,20 @@ iomanip
 -
 ETSI_RRS_RadioComputer.h
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.h
+ETSI_RRS_MURI.h
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.h
+
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp
+ETSI_RRS_MURI_DataFlowServices.h
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h
 
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h
 iostream
 -
+ETSI_RRS_RadioComputer.h
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.h
+
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.cpp
 ETSI_RRS_RadioComputer.h
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.h
 
@@ -65,6 +81,8 @@ sstream
 -
 iostream
 -
+ETSI_RRS_MURI.h
+/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.h
 
 /home/kate/Desktop/RRS_MURI/main.cpp
 iostream

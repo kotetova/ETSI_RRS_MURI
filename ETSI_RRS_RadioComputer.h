@@ -14,12 +14,10 @@ using namespace std;
 
 class ETSI_RRS_RadioComputer {
 
-    ETSI_RRS_MURI *muri;
-
 public:
 
     ETSI_RRS_RadioComputer();
-    int radioComputer, E1;
+    int radioComputer, E1, E2, E3;
 
     ~ETSI_RRS_RadioComputer();
 
@@ -27,7 +25,7 @@ public:
 
 class RadioApp: public ETSI_RRS_RadioComputer{
 public:
-    RadioApp(int, int);
+    RadioApp(int);
 
     ~RadioApp();
 

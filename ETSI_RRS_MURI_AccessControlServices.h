@@ -16,22 +16,22 @@ class ETSI_RRS_MURI_AccessControlServices{
 
 private:
     ETSI_RRS_RadioComputer *radioComputer;
-    ETSI_RRS_MURI *muri;
+    ETSI_RRS_MURI muri;
+
 
 public:
 
     ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer&);
 
-
-    int activateRadioApps(int);
-    bool deactivateRadioApps(int);
-    void getListOfRadioApps(int);   //RadioAppList
-    int createAssociation(int);
-    bool terminateAssociation();
+    int activateRadioApps(ETSI_RRS_MURI, int);
+    bool deactivateRadioApps(ETSI_RRS_MURI,int);
+    void getListOfRadioApps(ETSI_RRS_MURI);   //RadioAppList
+    int createAssociation(ETSI_RRS_MURI);
+    bool terminateAssociation(ETSI_RRS_MURI);
 
 
     /** Lisa*/
-    /* bool startRadioMeasurment();
+    /* bool startRadioMeasurment(); //+radMeasList
     void stopRadioMeasurment();
     int createLink();
     int releaseLink();
@@ -39,8 +39,6 @@ public:
     int terminateDataFlow(); */
 
     ~ETSI_RRS_MURI_AccessControlServices();
-
-
 
 };
 

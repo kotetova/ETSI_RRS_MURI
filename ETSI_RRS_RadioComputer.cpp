@@ -18,7 +18,9 @@ ETSI_RRS_RadioComputer::~ETSI_RRS_RadioComputer() {
 }
 
 
-RadioApp::RadioApp(int, int) {
+RadioApp::RadioApp(int) {
+
+
 
 
 }
