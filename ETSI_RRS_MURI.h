@@ -23,12 +23,12 @@ class ETSI_RRS_MURI{
     ETSI_RRS_MURI_AccessControlServices *accessControlServices; /**Lisa*/
     ETSI_RRS_MURI_AdministrativeServices *administrativeServices;
     ETSI_RRS_MURI_DataFlowServices *dataFlowServices; /**Lisa*/
-    ETSI_RRS_RadioComputer *radioComputer;
+
 
 
 public:
-    ETSI_RRS_MURI(ETSI_RRS_RadioComputer&);
-
+    ETSI_RRS_MURI();
+    ETSI_RRS_RadioComputer *radioComputer;
     bool checkoutURA();
     bool checkoutRAP();
 

@@ -15,19 +15,20 @@ using namespace std;
 class ETSI_RRS_MURI_AccessControlServices{
 
 private:
-    ETSI_RRS_RadioComputer *radioComputer;
-    ETSI_RRS_MURI muri;
+
+
 
 
 public:
+    ETSI_RRS_MURI muri;
+    ETSI_RRS_RadioComputer radioComputer;
+    ETSI_RRS_MURI_AccessControlServices();
 
-    ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer&);
-
-    int activateRadioApps(ETSI_RRS_MURI, int);
-    bool deactivateRadioApps(ETSI_RRS_MURI,int);
-    void getListOfRadioApps(ETSI_RRS_MURI);   //RadioAppList
-    int createAssociation(ETSI_RRS_MURI);
-    bool terminateAssociation(ETSI_RRS_MURI);
+    int activateRadioApps(int);
+    bool deactivateRadioApps(int);
+    void getListOfRadioApps();   //RadioAppList
+    int createAssociation();
+    bool terminateAssociation();
 
 
     /** Lisa*/

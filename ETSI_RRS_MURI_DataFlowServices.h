@@ -14,12 +14,12 @@ using namespace std;
 class ETSI_RRS_MURI_DataFlowServices{
 
 public:
-    ETSI_RRS_MURI_DataFlowServices(ETSI_RRS_RadioComputer&);
+    ETSI_RRS_MURI_DataFlowServices();
     ~ETSI_RRS_MURI_DataFlowServices();
 
 private:
 
-  ETSI_RRS_RadioComputer *radioComputer;
+  ETSI_RRS_RadioComputer radioComputer;
 
  /*
     bool sendUserData();

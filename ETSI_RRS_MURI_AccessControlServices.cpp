@@ -7,13 +7,12 @@
 
 
 
-ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer &currentRC) {
-    radioComputer = &currentRC;
+ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices() {
     cout << "Access Control Services was created"<< endl;
 
 }
 
-int ETSI_RRS_MURI_AccessControlServices::activateRadioApps(ETSI_RRS_MURI, int URA_ID){
+int ETSI_RRS_MURI_AccessControlServices::activateRadioApps(int URA_ID){
 
     int q, sw;
     switch (sw) {
@@ -33,7 +32,7 @@ int ETSI_RRS_MURI_AccessControlServices::activateRadioApps(ETSI_RRS_MURI, int UR
     }
 }
 
-bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(ETSI_RRS_MURI ,int URA_ID) {
+bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(int URA_ID) {
     int q, sw;
     int activeApp = 1;
     switch (sw) {
@@ -57,7 +56,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(ETSI_RRS_MURI ,int
     }
 }
 
-    void ETSI_RRS_MURI_AccessControlServices::getListOfRadioApps(ETSI_RRS_MURI) {   //RadioAppList
+    void ETSI_RRS_MURI_AccessControlServices::getListOfRadioApps() {   //RadioAppList
 
         list<int> radioAppsList(5, URA_ID);
         auto i = radioAppsList.begin(), j = radioAppsList.end();
@@ -67,7 +66,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(ETSI_RRS_MURI ,int
         }
     }
 
-    bool ETSI_RRS_MURI_AccessControlServices::terminateAssociation(ETSI_RRS_MURI) {
+    bool ETSI_RRS_MURI_AccessControlServices::terminateAssociation() {
         int sw, q;
         bool associate;
         switch (sw) {
@@ -91,7 +90,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(ETSI_RRS_MURI ,int
         return associate;
     }
 
-    int ETSI_RRS_MURI_AccessControlServices::createAssociation(ETSI_RRS_MURI) {
+    int ETSI_RRS_MURI_AccessControlServices::createAssociation() {
         int sw, q;
         bool associate;
         switch (sw) {

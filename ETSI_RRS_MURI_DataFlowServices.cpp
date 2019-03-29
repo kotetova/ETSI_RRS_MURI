@@ -4,9 +4,8 @@
 
 #include "ETSI_RRS_MURI_DataFlowServices.h"
 
-ETSI_RRS_MURI_DataFlowServices::ETSI_RRS_MURI_DataFlowServices(ETSI_RRS_RadioComputer &currentRC) {
+ETSI_RRS_MURI_DataFlowServices::ETSI_RRS_MURI_DataFlowServices() {
 
-    radioComputer = &currentRC;
 
     cout << "Data flow Services was created" << endl;
 }
