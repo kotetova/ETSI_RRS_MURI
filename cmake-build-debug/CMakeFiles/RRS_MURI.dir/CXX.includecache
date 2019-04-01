@@ -62,10 +62,6 @@ ETSI_RRS_RadioComputer.h
 ETSI_RRS_MURI.h
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.h
 
-/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp
-ETSI_RRS_MURI_DataFlowServices.h
-/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h
-
 /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h
 iostream
 -

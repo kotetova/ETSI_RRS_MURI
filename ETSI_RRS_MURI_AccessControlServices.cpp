@@ -7,7 +7,8 @@
 
 
 
-ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices() {
+ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer &currentDevice) {
+    radioComputer = &currentDevice;
     cout << "Access Control Services was created"<< endl;
 
 }

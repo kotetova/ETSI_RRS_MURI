@@ -204,33 +204,6 @@ ETSI_RRS_MURI_AdministrativeServices.cpp.s:
 	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AdministrativeServices.cpp.s
 .PHONY : ETSI_RRS_MURI_AdministrativeServices.cpp.s
 
-ETSI_RRS_MURI_DataFlowServices.o: ETSI_RRS_MURI_DataFlowServices.cpp.o
-
-.PHONY : ETSI_RRS_MURI_DataFlowServices.o
-
-# target to build an object file
-ETSI_RRS_MURI_DataFlowServices.cpp.o:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o
-.PHONY : ETSI_RRS_MURI_DataFlowServices.cpp.o
-
-ETSI_RRS_MURI_DataFlowServices.i: ETSI_RRS_MURI_DataFlowServices.cpp.i
-
-.PHONY : ETSI_RRS_MURI_DataFlowServices.i
-
-# target to preprocess a source file
-ETSI_RRS_MURI_DataFlowServices.cpp.i:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.i
-.PHONY : ETSI_RRS_MURI_DataFlowServices.cpp.i
-
-ETSI_RRS_MURI_DataFlowServices.s: ETSI_RRS_MURI_DataFlowServices.cpp.s
-
-.PHONY : ETSI_RRS_MURI_DataFlowServices.s
-
-# target to generate assembly for a file
-ETSI_RRS_MURI_DataFlowServices.cpp.s:
-	$(MAKE) -f CMakeFiles/RRS_MURI.dir/build.make CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.s
-.PHONY : ETSI_RRS_MURI_DataFlowServices.cpp.s
-
 ETSI_RRS_RadioComputer.o: ETSI_RRS_RadioComputer.cpp.o
 
 .PHONY : ETSI_RRS_RadioComputer.o
@@ -303,9 +276,6 @@ help:
 	@echo "... ETSI_RRS_MURI_AdministrativeServices.o"
 	@echo "... ETSI_RRS_MURI_AdministrativeServices.i"
 	@echo "... ETSI_RRS_MURI_AdministrativeServices.s"
-	@echo "... ETSI_RRS_MURI_DataFlowServices.o"
-	@echo "... ETSI_RRS_MURI_DataFlowServices.i"
-	@echo "... ETSI_RRS_MURI_DataFlowServices.s"
 	@echo "... ETSI_RRS_RadioComputer.o"
 	@echo "... ETSI_RRS_RadioComputer.i"
 	@echo "... ETSI_RRS_RadioComputer.s"

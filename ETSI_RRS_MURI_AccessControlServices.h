@@ -15,14 +15,11 @@ using namespace std;
 class ETSI_RRS_MURI_AccessControlServices{
 
 private:
-
-
-
+    ETSI_RRS_RadioComputer *radioComputer;
+    ETSI_RRS_MURI *muri;
 
 public:
-    ETSI_RRS_MURI muri;
-    ETSI_RRS_RadioComputer radioComputer;
-    ETSI_RRS_MURI_AccessControlServices();
+    ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer&);
 
     int activateRadioApps(int);
     bool deactivateRadioApps(int);

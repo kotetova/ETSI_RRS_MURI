@@ -102,12 +102,6 @@
 		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AdministrativeServices.h">
 			<Option target="RRS_MURI"/>
 		</Unit>
-		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp">
-			<Option target="RRS_MURI"/>
-		</Unit>
-		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.h">
-			<Option target="RRS_MURI"/>
-		</Unit>
 		<Unit filename="/home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.cpp">
 			<Option target="RRS_MURI"/>
 		</Unit>

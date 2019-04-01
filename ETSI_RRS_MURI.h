@@ -19,20 +19,24 @@ static int URA_ID;
 using namespace std;
 class ETSI_RRS_MURI{
 
-
-    ETSI_RRS_MURI_AccessControlServices *accessControlServices; /**Lisa*/
-    ETSI_RRS_MURI_AdministrativeServices *administrativeServices;
-    ETSI_RRS_MURI_DataFlowServices *dataFlowServices; /**Lisa*/
-
-
+private:
+    ETSI_RRS_RadioComputer *radioComputer;
 
 public:
-    ETSI_RRS_MURI();
-    ETSI_RRS_RadioComputer *radioComputer;
+    ETSI_RRS_MURI_AccessControlServices *accessControlServices; /**Lisa*/
+    ETSI_RRS_MURI_AdministrativeServices *administrativeServices;
+ //   ETSI_RRS_MURI_DataFlowServices *dataFlowServices; /**Lisa*/
+
+
+
+
+    ETSI_RRS_MURI(ETSI_RRS_RadioComputer&);
+
+
     bool checkoutURA();
     bool checkoutRAP();
 
-
+    int muri;
     // AccessControlServices
     int activateRadioApps(int);
     bool deactivateRadioApps(int);
@@ -53,8 +57,8 @@ public:
     void getListOfRadioApps(int);
 
     /** Lisa*/
-    /* DataFlowServices
-     *
+    // DataFlowServices
+     /*
        bool sendUserData();
        void receiveUserData();  //UserData
    */

@@ -21,10 +21,9 @@ class ETSI_RRS_MURI_AdministrativeServices {
 
 public:
 
-    ETSI_RRS_MURI_AdministrativeServices();
-    ETSI_RRS_MURI muri;
-    ETSI_RRS_RadioComputer radioComputer;
-    ~ETSI_RRS_MURI_AdministrativeServices();
+    ETSI_RRS_MURI_AdministrativeServices(ETSI_RRS_RadioComputer&);
+
+
 
     int installRadioApps(int);
     int uninstallRadioApps(int);
@@ -33,8 +32,11 @@ public:
     void getRadioAppParameters();
     bool setRadioAppParameters();
     void getListOfRadioApps();
+    ~ETSI_RRS_MURI_AdministrativeServices();
 
 private:
+    ETSI_RRS_RadioComputer *radioComputer;
+    ETSI_RRS_MURI *muri;
 
 
 //    ETSI_RRS_hash *hashFile;

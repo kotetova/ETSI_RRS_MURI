@@ -96,22 +96,9 @@ CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AccessControlServices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AccessControlServices.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_AccessControlServices.cpp -o CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AccessControlServices.cpp.s
 
-CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o: CMakeFiles/RRS_MURI.dir/flags.make
-CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o: ../ETSI_RRS_MURI_DataFlowServices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o -c /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp
-
-CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp > CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.i
-
-CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI_DataFlowServices.cpp -o CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.s
-
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: CMakeFiles/RRS_MURI.dir/flags.make
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o: ../ETSI_RRS_MURI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o -c /home/kate/Desktop/RRS_MURI/ETSI_RRS_MURI.cpp
 
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.s: cmake_force
 
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o: CMakeFiles/RRS_MURI.dir/flags.make
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o: ../ETSI_RRS_RadioComputer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o -c /home/kate/Desktop/RRS_MURI/ETSI_RRS_RadioComputer.cpp
 
 CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.i: cmake_force
@@ -140,7 +127,6 @@ RRS_MURI_OBJECTS = \
 "CMakeFiles/RRS_MURI.dir/main.cpp.o" \
 "CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AdministrativeServices.cpp.o" \
 "CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AccessControlServices.cpp.o" \
-"CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o" \
 "CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o" \
 "CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o"
 
@@ -150,12 +136,11 @@ RRS_MURI_EXTERNAL_OBJECTS =
 RRS_MURI: CMakeFiles/RRS_MURI.dir/main.cpp.o
 RRS_MURI: CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AdministrativeServices.cpp.o
 RRS_MURI: CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_AccessControlServices.cpp.o
-RRS_MURI: CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI_DataFlowServices.cpp.o
 RRS_MURI: CMakeFiles/RRS_MURI.dir/ETSI_RRS_MURI.cpp.o
 RRS_MURI: CMakeFiles/RRS_MURI.dir/ETSI_RRS_RadioComputer.cpp.o
 RRS_MURI: CMakeFiles/RRS_MURI.dir/build.make
 RRS_MURI: CMakeFiles/RRS_MURI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable RRS_MURI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kate/Desktop/RRS_MURI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable RRS_MURI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RRS_MURI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
