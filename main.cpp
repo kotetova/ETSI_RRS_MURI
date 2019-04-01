@@ -11,11 +11,11 @@ using namespace std;
 
 int main() {
 
-    ETSI_RRS_RadioComputer radioComp;
-    ETSI_RRS_MURI mur(radioComp);
-    mur.activateRadioApps(5);
-    mur.deactivateRadioApps(111);
-    mur.getListOfRadioApps();
+    //ETSI_RRS_RadioComputer radioComp;
+    ETSI_RRS_MURI mur();
+    //mur.activateRadioApps(5);
+    //mur.deactivateRadioApps(111);
+    //mur.getListOfRadioApps();
 
     cout << endl <<"Complete!"<< endl;
 

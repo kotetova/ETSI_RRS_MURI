@@ -3,12 +3,12 @@
 //
 
 #include "ETSI_RRS_MURI_AccessControlServices.h"
+#include "ETSI_RRS_MURI.h"
 #include <fstream>
 
 
 
-ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices(ETSI_RRS_RadioComputer &currentDevice) {
-    radioComputer = &currentDevice;
+ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices() : ETSI_RRS_MURI(){
     cout << "Access Control Services was created"<< endl;
 
 }
@@ -21,7 +21,7 @@ int ETSI_RRS_MURI_AccessControlServices::activateRadioApps(int URA_ID){
             cout << "If you need Activation press '1' " << endl;
             cin >> q;
             if (q == 1) {
-                if( muri->checkoutURA() == true) {
+                if( checkoutURA() == true) {
                     cout << "Aactivate...";
                     //activate exe file
                 }
@@ -41,7 +41,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(int URA_ID) {
             cout << "If you need Deactivation press '1'" << endl;
             cin >> q;
             if (q == 1) {
-                if (muri->checkoutURA() == true) {
+                if (checkoutURA() == true) {
                     cout << "Deactivate...";
                     activeApp = 0;
                 }
@@ -50,7 +50,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(int URA_ID) {
                 cout << "Error!";
             }
             if (activeApp == 1 && q == 1) {
-                muri->checkoutURA();
+                checkoutURA();
                 cout << "Hard deactivate...";
             }
         }
@@ -75,7 +75,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(int URA_ID) {
                 cout << "If you want Terminate Associate press '1" << endl;
                 cin >> q;
                 if (q == 1) {
-                    if (muri->checkoutURA() == true) {
+                    if (checkoutURA() == true) {
                         if (associate == true) {
                             cout << "Network Association Terminate yet.";
                         } else associate = true;
@@ -99,7 +99,7 @@ bool ETSI_RRS_MURI_AccessControlServices::deactivateRadioApps(int URA_ID) {
                 cout << "If you want Create Associate press '1, another press '0' " << endl;
                 cin >> q;
                 if (q == 1) {
-                    if (muri->checkoutURA() == true) {
+                    if (checkoutURA() == true) {
                         if (associate == true) {
                             cout << "Network Association Established yet.";
                         } else associate = true;

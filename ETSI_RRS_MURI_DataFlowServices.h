@@ -4,6 +4,7 @@
 #pragma once
 #include <iostream>
 #include "ETSI_RRS_RadioComputer.h"
+#include "ETSI_RRS_MURI.h"
 
 
 #ifndef MURI_DATAFLOWSERVICES_H
@@ -11,7 +12,7 @@
 
 using namespace std;
 
-class ETSI_RRS_MURI_DataFlowServices{
+class ETSI_RRS_MURI_DataFlowServices : public ETSI_RRS_MURI {
 
 public:
     ETSI_RRS_MURI_DataFlowServices();
@@ -19,7 +20,7 @@ public:
 
 private:
 
-  ETSI_RRS_RadioComputer radioComputer;
+  //ETSI_RRS_RadioComputer radioComputer;
 
  /*
     bool sendUserData();

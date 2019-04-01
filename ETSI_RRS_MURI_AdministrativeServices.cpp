@@ -4,14 +4,13 @@
 
 #include "ETSI_RRS_MURI_AdministrativeServices.h"
 
-ETSI_RRS_MURI_AdministrativeServices::ETSI_RRS_MURI_AdministrativeServices(ETSI_RRS_RadioComputer &currentDevice){
-    radioComputer = &currentDevice;
+ETSI_RRS_MURI_AdministrativeServices::ETSI_RRS_MURI_AdministrativeServices() : ETSI_RRS_MURI() {
     cout << "Administrative Services was created"<< endl;
 
 }
 int ETSI_RRS_MURI_AdministrativeServices::installRadioApps(int RAP_ID) {
 
-    if (muri.checkoutRAP() == true) {
+    if (checkoutRAP() == true) {
         cout << "installable application " << RAP_ID;
     } else cout << "Not found this ID ";
 
@@ -26,7 +25,7 @@ int ETSI_RRS_MURI_AdministrativeServices::installRadioApps(int RAP_ID) {
 
     int ETSI_RRS_MURI_AdministrativeServices::uninstallRadioApps(int URA_ID) {
 
-        if (muri->checkoutURA() == true) {
+        if (checkoutURA() == true) {
             cout << "uninstallable application " << URA_ID;
         } else cout << "Not found this ID ";
 
@@ -40,7 +39,7 @@ int ETSI_RRS_MURI_AdministrativeServices::installRadioApps(int RAP_ID) {
 
 int ETSI_RRS_MURI_AdministrativeServices::createRadioApps(int RAP_ID) {
 
-    if (muri->checkoutURA() == true) {
+    if (checkoutURA() == true) {
         cout << "create application " << URA_ID;
     } else cout << "Not found this ID ";
 
@@ -54,7 +53,7 @@ int ETSI_RRS_MURI_AdministrativeServices::createRadioApps(int RAP_ID) {
 
 int ETSI_RRS_MURI_AdministrativeServices::deleteRadioApps(int URA_ID){
 
-    if (muri->checkoutURA() == true) {
+    if (checkoutURA() == true) {
         cout << "delete application " << URA_ID;
     } else cout << "Not found this ID ";
 

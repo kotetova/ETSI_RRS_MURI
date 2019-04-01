@@ -1,4 +1,4 @@
-# Install script for directory: /home/kate/Desktop/RRS_MURI
+# Install script for directory: /home/leoind/MURI/ETSI_RRS_MURI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kate/Desktop/RRS_MURI/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leoind/MURI/ETSI_RRS_MURI/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
