@@ -19,14 +19,5 @@ int main() {
     accessControlServices->getListOfRadioApps();
     accessControlServices->deactivateRadioApps(5);
 
-
-
-
-    // Test hash
-//    string hash = muri.hashfile("test.txt");
- //   cout << "The hash of our file is: " << hash << endl;
-
-    // The End
-
     return 0;
 }
