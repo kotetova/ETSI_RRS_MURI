@@ -16,7 +16,6 @@ class ETSI_RRS_MURI_AccessControlServices : public ETSI_RRS_MURI {
 
 private:
     ETSI_RRS_RadioComputer *radioComputer;
-    //ETSI_RRS_MURI *muri;
 
 public:
     ETSI_RRS_MURI_AccessControlServices();
@@ -27,9 +26,12 @@ public:
     int createAssociation();
     bool terminateAssociation();
 
+    bool activateRA;
+    bool associateRA;
+
 
     /** Lisa*/
-    /* bool startRadioMeasurment(); //+radMeasList
+    /* bool startRadioMeasurment(); //RadMeasList
     void stopRadioMeasurment();
     int createLink();
     int releaseLink();
@@ -41,4 +43,4 @@ public:
 };
 
 
-#endif //MURI_ACCESSCONTROLSERVICES_H
+#endif

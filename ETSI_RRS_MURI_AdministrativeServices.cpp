@@ -10,7 +10,7 @@ ETSI_RRS_MURI_AdministrativeServices::ETSI_RRS_MURI_AdministrativeServices() : E
 }
 int ETSI_RRS_MURI_AdministrativeServices::installRadioApps(int RAP_ID) {
 
-    if (checkoutRAP() == true) {
+    if (checkoutRAP(RAP_ID) == true) {
         cout << "installable application " << RAP_ID;
     } else cout << "Not found this ID ";
 
@@ -25,7 +25,7 @@ int ETSI_RRS_MURI_AdministrativeServices::installRadioApps(int RAP_ID) {
 
     int ETSI_RRS_MURI_AdministrativeServices::uninstallRadioApps(int URA_ID) {
 
-        if (checkoutURA() == true) {
+        if (checkoutURA(URA_ID) == true) {
             cout << "uninstallable application " << URA_ID;
         } else cout << "Not found this ID ";
 
@@ -39,8 +39,8 @@ int ETSI_RRS_MURI_AdministrativeServices::installRadioApps(int RAP_ID) {
 
 int ETSI_RRS_MURI_AdministrativeServices::createRadioApps(int RAP_ID) {
 
-    if (checkoutURA() == true) {
-        cout << "create application " << URA_ID;
+    if (checkoutRAP(RAP_ID) == true) {
+        cout << "create application " << RAP_ID;
     } else cout << "Not found this ID ";
 
 //
@@ -53,7 +53,7 @@ int ETSI_RRS_MURI_AdministrativeServices::createRadioApps(int RAP_ID) {
 
 int ETSI_RRS_MURI_AdministrativeServices::deleteRadioApps(int URA_ID){
 
-    if (checkoutURA() == true) {
+    if (checkoutURA(URA_ID) == true) {
         cout << "delete application " << URA_ID;
     } else cout << "Not found this ID ";
 

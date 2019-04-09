@@ -35,11 +35,7 @@ public:
     ~ETSI_RRS_MURI_AdministrativeServices();
 
 private:
-    //ETSI_RRS_RadioComputer *radioComputer;
-    //ETSI_RRS_MURI *muri;
 
-
-//    ETSI_RRS_hash *hashFile;
 
 
 };

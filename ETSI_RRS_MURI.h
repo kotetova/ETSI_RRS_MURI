@@ -5,9 +5,6 @@
 #include <iostream>
 
 #include "ETSI_RRS_RadioComputer.h"
-//#include "ETSI_RRS_MURI_AccessControlServices.h"
-//#include "ETSI_RRS_MURI_AdministrativeServices.h"
-//#include "ETSI_RRS_MURI_DataFlowServices.h"
 #include <list>
 
 static int  RAP_ID;
@@ -23,33 +20,16 @@ private:
     ETSI_RRS_RadioComputer *radioComputer;
 
 public:
-    //ETSI_RRS_MURI_AccessControlServices *accessControlServices; /**Lisa*/
-    //ETSI_RRS_MURI_AdministrativeServices *administrativeServices;
- //   ETSI_RRS_MURI_DataFlowServices *dataFlowServices; /**Lisa*/
+   ETSI_RRS_MURI();
+
+    bool checkoutURA(int);
+    bool checkoutRAP(int);
+    int arr();
 
 
 
+//    string hashfile (const char*);
 
-    ETSI_RRS_MURI();
-
-
-    bool checkoutURA();
-    bool checkoutRAP();
-
-    int muri;
-    // AccessControlServices
-    string hashfile (const char*);
-    /**Lisa*/
-
-
-
-
-    /** Lisa*/
-    // DataFlowServices
-     /*
-       bool sendUserData();
-       void receiveUserData();  //UserData
-   */
 
     ~ETSI_RRS_MURI();
 };
@@ -58,4 +38,4 @@ public:
 
 
 
-#endif //RRS_MURI_MURI_H
+#endif

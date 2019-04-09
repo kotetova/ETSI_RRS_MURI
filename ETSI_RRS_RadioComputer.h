@@ -16,7 +16,7 @@ class ETSI_RRS_RadioComputer {
 public:
 
     ETSI_RRS_RadioComputer();
-    int radioComputer, E1, E2, E3;
+    int radioComputer, E1;
 
     ~ETSI_RRS_RadioComputer();
 

@@ -4,6 +4,8 @@
 #include <zconf.h>
 #include "ETSI_RRS_MURI.h"
 #include "ETSI_RRS_RadioComputer.h"
+#include "ETSI_RRS_MURI_AdministrativeServices.h"
+#include "ETSI_RRS_MURI_AccessControlServices.h"
 
 
 using namespace std;
@@ -11,16 +13,13 @@ using namespace std;
 
 int main() {
 
-    //ETSI_RRS_RadioComputer radioComp;
-    ETSI_RRS_MURI mur();
-    //mur.activateRadioApps(5);
-    //mur.deactivateRadioApps(111);
-    //mur.getListOfRadioApps();
+    ETSI_RRS_MURI_AdministrativeServices* administrativeServices = new ETSI_RRS_MURI_AdministrativeServices;
+    ETSI_RRS_MURI_AccessControlServices* accessControlServices = new ETSI_RRS_MURI_AccessControlServices;
 
-    cout << endl <<"Complete!"<< endl;
+    accessControlServices->getListOfRadioApps();
+    accessControlServices->deactivateRadioApps(5);
 
 
-    // Test file
 
 
     // Test hash
