@@ -123,6 +123,33 @@ ETSI_RRS_MURI/fast:
 	$(MAKE) -f CMakeFiles/ETSI_RRS_MURI.dir/build.make CMakeFiles/ETSI_RRS_MURI.dir/build
 .PHONY : ETSI_RRS_MURI/fast
 
+AppTemplate.o: AppTemplate.cpp.o
+
+.PHONY : AppTemplate.o
+
+# target to build an object file
+AppTemplate.cpp.o:
+	$(MAKE) -f CMakeFiles/ETSI_RRS_MURI.dir/build.make CMakeFiles/ETSI_RRS_MURI.dir/AppTemplate.cpp.o
+.PHONY : AppTemplate.cpp.o
+
+AppTemplate.i: AppTemplate.cpp.i
+
+.PHONY : AppTemplate.i
+
+# target to preprocess a source file
+AppTemplate.cpp.i:
+	$(MAKE) -f CMakeFiles/ETSI_RRS_MURI.dir/build.make CMakeFiles/ETSI_RRS_MURI.dir/AppTemplate.cpp.i
+.PHONY : AppTemplate.cpp.i
+
+AppTemplate.s: AppTemplate.cpp.s
+
+.PHONY : AppTemplate.s
+
+# target to generate assembly for a file
+AppTemplate.cpp.s:
+	$(MAKE) -f CMakeFiles/ETSI_RRS_MURI.dir/build.make CMakeFiles/ETSI_RRS_MURI.dir/AppTemplate.cpp.s
+.PHONY : AppTemplate.cpp.s
+
 ETSI_RRS_MURI.o: ETSI_RRS_MURI.cpp.o
 
 .PHONY : ETSI_RRS_MURI.o
@@ -294,6 +321,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ETSI_RRS_MURI"
+	@echo "... AppTemplate.o"
+	@echo "... AppTemplate.i"
+	@echo "... AppTemplate.s"
 	@echo "... ETSI_RRS_MURI.o"
 	@echo "... ETSI_RRS_MURI.i"
 	@echo "... ETSI_RRS_MURI.s"

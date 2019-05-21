@@ -16,8 +16,10 @@ int main() {
     ETSI_RRS_MURI_AdministrativeServices* administrativeServices = new ETSI_RRS_MURI_AdministrativeServices;
     ETSI_RRS_MURI_AccessControlServices* accessControlServices = new ETSI_RRS_MURI_AccessControlServices;
 
-    accessControlServices->getListOfRadioApps();
-    accessControlServices->deactivateRadioApps(5);
+    //accessControlServices->getListOfRadioApps();
+   // accessControlServices->deactivateRadioApps(5);
+    AppTemplate wifi {5, "wifi", "null", false};
+    wifi.newApp();
 
     return 0;
 }

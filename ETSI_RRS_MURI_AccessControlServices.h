@@ -16,9 +16,10 @@ class ETSI_RRS_MURI_AccessControlServices : public ETSI_RRS_MURI {
 
 private:
     ETSI_RRS_RadioComputer *radioComputer;
+    AppTemplate *currentApp;
 
 public:
-    ETSI_RRS_MURI_AccessControlServices();
+    ETSI_RRS_MURI_AccessControlServices(AppTemplate&);
 
     int activateRadioApps(int);
     bool deactivateRadioApps(int);

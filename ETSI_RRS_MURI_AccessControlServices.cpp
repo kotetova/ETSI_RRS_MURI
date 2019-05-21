@@ -8,7 +8,9 @@
 
 
 
-ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices() : ETSI_RRS_MURI(){
+ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices(AppTemplate &currentAPI) : ETSI_RRS_yMURI(){
+    radioComputer = new ETSI_RRS_RadioComputer();
+    currentApp = &currentAPI;
     cout << "Access Control Services was created"<< endl;
 
 }

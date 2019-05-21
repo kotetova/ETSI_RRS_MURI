@@ -5,22 +5,18 @@
 
 
 
-ETSI_RRS_MURI::ETSI_RRS_MURI(){
-
+ETSI_RRS_MURI::ETSI_RRS_MURI(AppTemplate &currentAPI){
     radioComputer = new ETSI_RRS_RadioComputer();
+    currentApp = &currentAPI;
 }
 
-
-/*string ETSI_RRS_MURI::hashfile(const char *filename) {
-
-
-}*/
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-bool ETSI_RRS_MURI::checkoutURA(int) {
+bool ETSI_RRS_MURI::checkoutURA(int ura) {
     this->radioComputer->E1;
+    currentApp->appID = ura;
 
-    if ( int ura = URA_ID) {
+    if ( ura = URA_ID) {
         cout << "URA ID is correct " << ura << " < > " << URA_ID << endl;
         return true;
     } else {
@@ -31,6 +27,7 @@ bool ETSI_RRS_MURI::checkoutURA(int) {
 
 bool ETSI_RRS_MURI::checkoutRAP(int rap) {
     this->radioComputer->E1;
+    currentApp->appPackageID = rap;
     if ( int rap = RAP_ID) {
         cout << "RAP ID is correct " << rap<< " < > " << RAP_ID << endl;
         return true;
@@ -41,6 +38,7 @@ bool ETSI_RRS_MURI::checkoutRAP(int rap) {
 };
 
 int ETSI_RRS_MURI::arr() {
+    currentApp->appID;
     list<int>
             radioAppsList(4, URA_ID);
     auto i = radioAppsList.begin(), j = radioAppsList.end();

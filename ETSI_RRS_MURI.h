@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include "ETSI_RRS_RadioComputer.h"
+#include "AppTemplate.cpp"
 #include <list>
 
 static int  RAP_ID;
@@ -18,18 +19,14 @@ class ETSI_RRS_MURI {
 
 private:
     ETSI_RRS_RadioComputer *radioComputer;
+    AppTemplate *currentApp;
 
 public:
-   ETSI_RRS_MURI();
+   ETSI_RRS_MURI(AppTemplate&);
 
     bool checkoutURA(int);
     bool checkoutRAP(int);
     int arr();
-
-
-
-//    string hashfile (const char*);
-
 
     ~ETSI_RRS_MURI();
 };
