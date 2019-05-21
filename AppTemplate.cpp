@@ -10,15 +10,15 @@ using  namespace std;
 
 class AppTemplate{
 public:
-    int appPackageID;
     int appID;
+    int appPackageID;
     string appName;
     string appParametres;
     bool appStatus;
 
 
     void newApp(){
-
+        cout << appID<<endl;
         cout<< appPackageID << appName << appParametres<< appStatus;
 
     }
