@@ -13,13 +13,12 @@ using namespace std;
 
 int main() {
 
-   // ETSI_RRS_MURI_AdministrativeServices* administrativeServices = new ETSI_RRS_MURI_AdministrativeServices();
-   // ETSI_RRS_MURI_AccessControlServices* accessControlServices = new ETSI_RRS_MURI_AccessControlServices();
 
-    //accessControlServices->getListOfRadioApps();
-   // accessControlServices->deactivateRadioApps(5);
-    AppTemplate wifi {5, 6,"wifi", "null", false};
+    AppTemplate wifi {1, 123,"wifi", "null", false};
     wifi.newApp();
+
+    AppTemplate lte {2, 321, "lte", "хз", true};
+    lte.newApp();
 
     return 0;
 }
