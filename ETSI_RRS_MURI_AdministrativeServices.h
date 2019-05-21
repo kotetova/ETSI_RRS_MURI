@@ -23,7 +23,7 @@ class ETSI_RRS_MURI_AdministrativeServices : public ETSI_RRS_MURI {
 
 public:
 
-    ETSI_RRS_MURI_AdministrativeServices();
+    ETSI_RRS_MURI_AdministrativeServices(AppTemplate&);
 
 
 

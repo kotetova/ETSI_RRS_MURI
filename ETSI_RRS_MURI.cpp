@@ -7,7 +7,7 @@
 
 ETSI_RRS_MURI::ETSI_RRS_MURI(AppTemplate &currentAPI){
     radioComputer = new ETSI_RRS_RadioComputer();
-    currentApp = &currentAPI;
+    this->currentApp = &currentAPI;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

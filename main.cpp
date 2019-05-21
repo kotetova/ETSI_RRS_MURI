@@ -13,8 +13,8 @@ using namespace std;
 
 int main() {
 
-    ETSI_RRS_MURI_AdministrativeServices* administrativeServices = new ETSI_RRS_MURI_AdministrativeServices;
-    ETSI_RRS_MURI_AccessControlServices* accessControlServices = new ETSI_RRS_MURI_AccessControlServices;
+    ETSI_RRS_MURI_AdministrativeServices* administrativeServices = new ETSI_RRS_MURI_AdministrativeServices();
+    ETSI_RRS_MURI_AccessControlServices* accessControlServices = new ETSI_RRS_MURI_AccessControlServices(AppTemplate currentAPI);
 
     //accessControlServices->getListOfRadioApps();
    // accessControlServices->deactivateRadioApps(5);

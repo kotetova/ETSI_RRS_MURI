@@ -5,7 +5,7 @@
 #include "ETSI_RRS_MURI_AdministrativeServices.h"
 // #include "AppTemplate.cpp"
 
-ETSI_RRS_MURI_AdministrativeServices::ETSI_RRS_MURI_AdministrativeServices() : ETSI_RRS_MURI() {
+ETSI_RRS_MURI_AdministrativeServices::ETSI_RRS_MURI_AdministrativeServices(AppTemplate &currentAPI) : ETSI_RRS_MURI(currentAPI) {
     cout << "Administrative Services was created"<< endl;
 
 }

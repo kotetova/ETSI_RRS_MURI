@@ -17,7 +17,7 @@ static int URA_ID;
 using namespace std;
 class ETSI_RRS_MURI {
 
-private:
+protected:
     ETSI_RRS_RadioComputer *radioComputer;
     AppTemplate *currentApp;
 
