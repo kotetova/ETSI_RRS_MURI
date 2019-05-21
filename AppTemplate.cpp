@@ -19,7 +19,7 @@ public:
 
     void newApp(){
         cout <<"ID App "<< appID<<endl;
-        cout<< appPackageID << appName << appParametres<< appStatus;
+        cout<< appPackageID << appName << appParametres<< appStatus<<endl;
 
     }
 

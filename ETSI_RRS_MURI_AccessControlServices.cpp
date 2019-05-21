@@ -10,7 +10,7 @@
 
 ETSI_RRS_MURI_AccessControlServices::ETSI_RRS_MURI_AccessControlServices(AppTemplate &currentAPI) : ETSI_RRS_MURI(currentAPI) {
 
-
+cout <<"AccessControlServices was created"<<endl;
 }
 
 int ETSI_RRS_MURI_AccessControlServices::activateRadioApps(int URA_ID){
